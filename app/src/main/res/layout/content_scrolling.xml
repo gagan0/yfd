@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:context=".ScrollingActivity"
+	tools:showIn="@layout/activity_scrolling">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:paddingLeft="16dp"
+		android:layout_height="match_parent">
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:layout_width="250dip"
+			android:layout_height="60dip"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="70dip">
+
+			<EditText
+				android:id="@+id/etHeaderTitle"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center"
+				android:hint="Header Title"
+				android:imeOptions="actionNext"
+				android:inputType="text"
+				android:maxLines="1"
+				android:textColor="@android:color/black"
+				android:textSize="16sp" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:layout_width="250dip"
+			android:layout_height="60dip"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="70dip">
+
+			<EditText
+				android:id="@+id/etHeaderD"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center"
+				android:hint="Header Title"
+				android:imeOptions="actionNext"
+				android:inputType="text"
+				android:maxLines="1"
+				android:textColor="@android:color/black"
+				android:textSize="16sp" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+	</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

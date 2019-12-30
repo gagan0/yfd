@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "881876109453",
+    "firebase_url": "https://app-controlled-websites.firebaseio.com",
+    "project_id": "app-controlled-websites",
+    "storage_bucket": "app-controlled-websites.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881876109453:android:bac2243a50bc0f9884bac4",
+        "android_client_info": {
+          "package_name": "com.yourfrienddentist.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881876109453-3bms7hekb5e8cnomcovkspd68h230am6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCLIJuziylIOQiwIEe8M0wkwRcZn4U6pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881876109453-3bms7hekb5e8cnomcovkspd68h230am6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
